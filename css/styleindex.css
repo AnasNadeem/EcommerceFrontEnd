@@ -1,0 +1,664 @@
+/* Universal i.e for all CSS Start  */
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #08090A !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    /* color: #fff; */
+    /* background-color: #3AAFA9; */
+}
+
+/* Universal i.e for all CSS Ends  */
+/* Sidebar Begins  */
+.sidebarlogo {
+    color: #feda0a;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    /*Will change with javascript */
+    position: fixed;
+    z-index: 1;
+    /* Stay on top*/
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    /*Disable horizontal scroll */
+    padding-top: 60px;
+    /*Place content 60px from the top*/
+    transition: 0.25s;
+}
+
+.sidenav .closebtn {
+    color: #feda0a;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav h3 {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.userName {
+    color: #feda0a;
+}
+
+.sidenav a {
+    padding: 8px 8px 2px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #fff;
+}
+
+/* Sidebar Ends  */
+#navbarId {
+    background-color: #343633;
+}
+
+.nav-item a {
+    font-size: 20px;
+}
+
+.cartlogo {
+    color: #feda0a;
+}
+.mainLogo{
+    height: 40px !important;
+    z-index: 100;
+    padding: 0 !important;
+}
+/* SearchID Begins Here  */
+.searchId {
+    width: 100%;
+    height: 100px;
+    padding-top: 25px;
+    background: #08090A;
+}
+
+.searchInput {
+    border: 1px solid #08090A !important;
+    border-radius: 100px 0px 0px 100px !important;
+    background-color: #343633 !important;
+}
+
+.searchInput::placeholder {
+    color: #fff !important;
+}
+
+.searchText{
+    /* color: #fff!important; */
+    background-color: #343633 !important;
+    border: 1px solid #08090A !important;
+    border-radius: 0 100px 100px 0 !important;
+}
+
+.searchLogo {
+    color: #feda0a;
+}
+
+/* SearchID Ends Here  */
+/* Carousel Start  */
+.carousellatest {
+    width: 100%;
+    padding-top: 170px;
+    background: #08090A;
+}
+
+.carousel-control-prev {
+    color: #feda0a !important;
+}
+
+/* Carousel END  */
+.viewMore {
+    float: right;
+    border: 1px solid #08090A;
+    outline: none;
+    color: #fff !important;
+    background-color: #343633 !important;
+    font-size: 1rem;
+    font-weight: 500
+}
+
+/* MobileId Begins  */
+.productId {
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+}
+.productIdTitle{
+    color: #feda0a;
+}
+.productCard {
+    background: #08090A !important;
+    margin-top: 20px;
+}
+
+.productcardtitle {
+    font-size: 1.2rem;
+}
+
+.mobileCart {
+    float: right;
+    color: #eeeeee !important;
+}
+
+.mobileCart:hover {
+    color: #fff !important;
+}
+
+.mobileBtn {
+    border: 1px solid #08090A;
+    outline: none;
+    color: #fff !important;
+    background-color: #343633 !important;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.mobileBtn:hover {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* MobileId Ends  */
+
+/* Footer Begins  */
+.footerId {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    background: #08090A;
+}
+
+.footer-div h4 {
+    text-transform: uppercase;
+    color: #feda0a;
+    margin-top: 14px;
+    margin-bottom: 15px;
+    font-size: 1.2rem !important;
+    font-weight: 600;
+}
+
+.footer-div li a {
+    line-height: 1.2;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+.fbitext:hover {
+    color: #3b5998 !important;
+}
+
+.twitext:hover {
+    color: #00acee !important;
+}
+
+.insitext:hover {
+    color: #bc2a8d !important;
+}
+
+.youtubetext:hover {
+    color: #c4302b !important;
+}
+
+.fbi {
+    color: #3b5998;
+}
+
+.twi {
+    color: #00acee;
+}
+
+.insi {
+    color: #bc2a8d;
+}
+
+.yti {
+    color: #c4302b;
+}
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: #feda0a;
+    background: #343633;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+    color: #feda0a;
+    background: #08090A;
+}
+
+/* Footer Ends  */
+
+/* Cart Product Begin  */
+.cartProduct {
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+    background: #08090A;
+}
+
+.cartProductCard {
+    height: 220px !important;
+
+}
+
+.imagesCart {
+    width: 100%;
+    height: 200px !important;
+}
+
+.cardTitle {
+    color: #fff;
+}
+
+.quantity {
+    color: #feda0a;
+}
+
+.cartProductCard h5 {
+    color: #fff;
+}
+
+/* .cartFinalPriceImg{
+     width: 100%;
+    height: 20px!important; 
+} */
+
+.cartProductTotalPrice {
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.cartProductTotalPrice h5 {
+    color: #fff;
+}
+
+.trashLogo {
+    color: #fff !important;
+}
+
+.minusCart{
+    font-size: 16px;
+}
+.minusCart:hover{
+    color: #feda0a;
+}
+
+.deletedPrice{
+    color: #343633;
+}
+/* Cart Product Ends  */
+
+/* .modal-header{
+    background-color: #343633!important;
+}
+
+.modal-body{
+    background-color: #08090A!important;
+} */
+
+/* Setting ID Begin  */
+
+.settingId {
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+    justify-content: center;
+
+}
+
+.card-header {
+    background-color: #343633 !important;
+}
+
+.SettingCard {
+    border: 1px solid #08090A;
+}
+
+.bodySetthingCard {
+    background-color: #08090A !important;
+}
+
+.btn-link {
+    color: #fff !important;
+    font-size: 1.2rem !important;
+}
+
+.submitBtnPass {
+    border: 1px solid #08090A;
+    outline: none;
+    color: #fff !important;
+    background-color: #343633 !important;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.addressHref {
+    color: #fff !important;
+    background-color: #343633 !important;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100%;
+}
+.addressEditlogo{
+    color: #feda0a !important;
+}
+.addressLogo {
+    color: #feda0a !important;
+}
+
+.PasswordLogo {
+    color: #feda0a !important;
+}
+
+.helpLogo {
+    color: #feda0a !important;
+}
+
+.callBtn {
+    border: 1px solid #08090A;
+    outline: none;
+    color: #fff !important;
+    background-color: #343633 !important;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.addedAddress{
+    width: 100%;
+    background-color: #343633;
+}
+.addedAddress p{
+    padding: 5px;
+    height: auto;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.deleteLog{
+    float: right;
+}
+.deleteLogotrash{
+    color: #feda0a!important;
+}
+/* Setting ID Ends  */
+/* Login and Signin Page Begins*/
+
+.cardSignin {
+    background-color: #343633 !important;
+    margin-top: 80px;
+}
+
+.cardnewSignin {
+    background-color: #343633 !important;
+    margin-top: 40px;
+}
+
+.cardnewSignin .card-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #feda0a;
+}
+
+.inputFormLogin {
+    background-color: #08090A !important;
+    border: 0 !important;
+}
+
+.cardSignin .card-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #feda0a;
+}
+
+.labelForMail {
+    color: #fff;
+}
+
+.labelForPass {
+    color: #fff;
+}
+
+.custom-control-input {
+    background-color: #08090A !important;
+}
+
+.submitBtnLogin {
+    border: 1px solid #343633 !important;
+    outline: none;
+    color: #fff !important;
+    background-color: #08090A !important;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.custom-control-label {
+    color: #08090A;
+}
+
+.inputFormLogin::placeholder {
+    color: #343633 !important;
+}
+
+/* For Hr  Begins*/
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    /* color: black; */
+    text-align: center;
+    height: 1.5em;
+    opacity: .5;
+}
+
+.hr-text:before {
+    content: '';
+    background: #08090A;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+}
+
+.hr-text:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    /* color: black; */
+    padding: 0 .5em;
+    line-height: 1.5em;
+    /* this is really the only tricky part, you need to specify the background color of the container element... */
+    color: #fff;
+    background-color: #343633;
+}
+
+/* For Hr  Ends*/
+
+/* Login and Signin Page Ends*/
+
+/* OTP Page Begins  */
+.otpnotrecieve{
+    color: #fff;
+}
+
+.resendOtp{
+    color: #feda0a;
+    font-size: 16px;
+}
+/* OTP Page Ends  */
+
+/* Checkout Form Start  */
+.checkoutID{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.checkoutAddaddress{
+    width: 100%;
+}
+.yourcartcheckoutList{
+    background-color: #343633!important;
+}
+
+.Promoform{
+    background-color: #343633!important;
+}
+
+.Promoforminput{
+    background-color: #08090A!important;
+    border: 1px solid #08090A!important;
+}
+.cardOption{
+    width: 100%;
+    background-color: #343633!important;
+}
+
+/* Searched Product CSS Begins  */
+
+.searchedProductResult{
+    width: 100%;
+    padding-top: 170px;
+    background: #08090A;
+}
+
+.searchedProductResultTitle{
+    color: #feda0a;
+}
+
+.SearchedProductCard{
+    background-color: #08090A !important;
+    border-top: 1px solid #343633 !important;
+    border-bottom: 1px solid #343633 !important;
+
+}
+
+.searchedCardProductTitle{
+    color: #fff;
+}
+
+.PriceCardProduct{
+    color: #fff;
+}
+
+.mobileCartSearched{
+    color: #fff;
+}
+
+.filterCard{
+    border: 1px solid #343633!important;
+    background-color: #08090A !important;
+    margin-top: 15px;
+}
+
+.filterCardlist{
+    background-color: #08090A !important; 
+}
+
+.filterCardlistlabel{
+    color: #fff;
+}
+
+.filterSmall{
+    margin-bottom: 15px;
+}
+
+.filterLogo{
+    color: #feda0a;
+}
+
+
+.filterCardforsmallDev{
+    border: 1px solid #343633!important;
+    background-color: #343633 !important;
+}
+
+.filterCardlistforSmallDev{
+    background-color: #343633 !important; 
+}
+
+.filterCardlistlabelforSmallDev{
+    color: #fff;
+}
+
+/* Searched Product CSS Ends  */
+/* View Pro CSS Starts */
+
+.viewProd{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.addToCart{
+    border: 1px solid #08090A !important;
+    outline: none;
+    color: #fff !important;
+    background-color: #343633 !important;
+    font-size: 1.4rem;
+    font-weight: 700;
+    width: 100%;
+}
+
+.priceOff{
+    color: #343633;
+    font-size: 1.3rem;
+}
+
+.priceoffpercent{
+    font-size: 1.4rem;
+}

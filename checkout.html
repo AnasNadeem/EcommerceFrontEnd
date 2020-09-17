@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Cart</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Font css  -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styleindex.css">
+
+  <!-- LOGO  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Navbar Begins  -->
+  <nav class="navbar navbar-expand-sm navbar-dark justify-content-center" id="navbarId">
+    <a class="navbar-brand" href="index.html"> Mobile Adda</a>
+  </nav>
+  <!-- Navbar Ends  -->
+  <section class="checkoutID">
+    <div class="container">
+      <h3 class="mt-3 text-uppercase productIdTitle">
+        Checkout
+      </h3>
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+          <h4 class="text-muted mb-3">Select Your Address</h4>
+          <div class="checkoutAddaddress">
+            <div class="justify-content-center text-center rounded addedAddress">
+              <p>
+                Gorgawan Danapur Bihar Patna 801105
+              </p>
+            
+            </div>
+            <a class="btn addressHref" data-toggle="collapse" href="#addaAddress" role="button" aria-expanded="false"
+              aria-controls="addaAddress">
+              Add a address <i class="fa fa-edit addressEditlogo" aria-hidden="true"></i>
+            </a>
+            <div class="collapse" id="addaAddress">
+              <form>
+                <div class="form-group mt-3">
+                  <label class="labelForMail" for="inputAddress">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label class="labelForMail" for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label class="labelForMail" for="inputState">State</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Choose...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label class="labelForMail" for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                  </div>
+                </div>
+                <input type="submit" class="mt-3 form-control btn submitBtnPass" value="Submit">
+              </form>
+            </div>
+            <h4 class="text-muted my-3">Payment Method</h4>
+            <form class="card cardOption p-3">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="debitCard" value="option1"
+                  checked>
+                <label class="form-check-label text-white" for="debitCard">
+                  Debit Card
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="creditCard" value="option2">
+                <label class="form-check-label text-white" for="creditCard">
+                  Credit Card
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="paytm" value="option3">
+                <label class="form-check-label text-white" for="paytm">
+                  Paytm
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="Gpay" value="option4">
+                <label class="form-check-label text-white" for="Gpay">
+                  Google Pay
+                </label>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+          <!-- Heading -->
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-muted">Your cart</span>
+            <span class="badge badge-secondary badge-pill">3</span>
+          </h4>
+
+          <!-- Cart -->
+          <ul class="list-group mb-3 z-depth-1">
+            <li class="list-group-item d-flex justify-content-between lh-condensed yourcartcheckoutList">
+              <div>
+                <h6 class="my-0 text-white">Product name</h6>
+                <small class="text-muted">Brief description</small>
+              </div>
+              <span class="text-muted">$12</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed yourcartcheckoutList">
+              <div>
+                <h6 class="my-0 text-white">Second product</h6>
+                <small class="text-muted">Brief description</small>
+              </div>
+              <span class="text-muted">$8</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed yourcartcheckoutList">
+              <div>
+                <h6 class="my-0 text-white">Third item</h6>
+                <small class="text-muted">Brief description</small>
+              </div>
+              <span class="text-muted">$5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between yourcartcheckoutList">
+              <div class="text-success">
+                <h6 class="my-0 text-white">Promo code</h6>
+                <small>EXAMPLECODE</small>
+              </div>
+              <span class="text-success">-$5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between yourcartcheckoutList">
+              <span class="text-white">Total (USD)</span>
+              <strong>$20</strong>
+            </li>
+          </ul>
+          <!-- Cart -->
+
+          <!-- Promo code -->
+          <form class="card p-2 Promoform">
+            <div class="input-group">
+              <input type="text" class="form-control Promoforminput" placeholder="Promo code"
+                aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-secondary btn-md waves-effect m-0" type="button">Redeem</button>
+              </div>
+            </div>
+          </form>
+          <!-- Promo code -->
+        </div>
+      </div>
+      <input type="submit" class="mt-3 form-control btn submitBtnPass" value="Proceed">
+
+    </div>
+  </section>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="js/sidebar.js"></script>
+  <script src="js/plusminus.js"></script>
+</body>
+
+</html>

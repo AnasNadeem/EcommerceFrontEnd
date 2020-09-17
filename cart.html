@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Cart</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font css  -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styleindex.css">
+
+    <!-- LOGO  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar Begins  -->
+    <nav class="navbar navbar-expand-sm navbar-dark" id="navbarId">
+        <a href="#" class="navbar-brand"><span onclick="openNav()"><i class="fa fa-bars sidebarlogo"
+                    aria-hidden="true"></i></span></a>
+        <a class="navbar-brand" href="index.html"> Mobile Adda</a>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="cart.html"><i class="fa fa-opencart cartlogo" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Navbar Ends  -->
+    <!-- Sidebar begins  -->
+    <div id="sidebar" class="sidenav">
+        <h3>Hello <span class="userName">Anas</span></h3>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <li><a href="mobile.html">Mobile</a></li>
+        <li><a href="accessories.html">Accessories</a></li>
+        <li><a href="backcover.html">Back Cover</a></li>
+        <li><a href="cart.html">Your Cart</a></li>
+        <li><a href="orders.html">Your Orders</a></li>
+        <li><a href="setting.html">Settings</a></li>
+        <a href="#">Logout</a>
+    </div>
+    <!-- Sidebar Ends  -->
+    <!-- Cart Product Begins  -->
+    <section class="cartProduct">
+        <div class="container">
+            <h3 class="text-white mt-2 mb-4 mobilesectext">Your Cart</h3>
+            <div class="cartProductCard">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-4">
+                        <img class="d-block imagesCart" src="image/2.jpg">
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-sm-8 col-8">
+                        <h4 class="cardTitle">Oppo F11 <del class="deletedPrice">₹12000</del> ₹8000 </h4>
+                        
+                        <h5>Qty:
+                            <button type="button" class="btn btn-secondary"><i class="fa fa-minus" aria-hidden="true"></i> </button>
+                            <span class="quantity">1</span>
+                            <button type="button" class="btn btn-secondary"><i class="fa fa-plus" aria-hidden="true"></i> </button>
+                        </h5>
+                        <a href="#" class="btn mobileBtn">View More</a>
+                        <a href="#" class="btn trashLogo"><i class="fa fa-trash fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="cartProductCard">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-4">
+                        <img class="d-block imagesCart" src="image/2.jpg">
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-sm-8 col-8">
+                        <h4 class="cardTitle">Oppo F11<del class="deletedPrice">₹12000</del> ₹8000 </h4>
+                        
+                        <h5>Qty:
+                            <button type="button" class="btn btn-secondary"><i class="fa fa-minus" aria-hidden="true"></i> </button>
+                            <span class="quantity">1</span>
+                            <button type="button" class="btn btn-secondary"><i class="fa fa-plus" aria-hidden="true"></i> </button>
+                        </h5>
+                        <a href="#" class="btn mobileBtn">View More</a>
+                        <a href="#" class="btn trashLogo"><i class="fa fa-trash fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="cartProductTotalPrice">
+                <h3 class="text-white">Total Cart:</h3>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <h5>Oppo F11</h5>
+                        <h5>Oppo F11</h5>
+                        <h5>Total Price</h5>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <h5>₹ 20,000</h5>
+                        <h5>₹ 20,000</h5>
+                        <h5>₹ 40,000</h5>
+                        <a href="checkout.html" class="btn mobileBtn">Checkout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Cart Product Ends   -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/plusminus.js"></script>
+</body>
+
+</html>
